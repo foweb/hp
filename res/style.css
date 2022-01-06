@@ -18,6 +18,6 @@ b, strong, h1, h2, h3, h4, h5, h6 {font-family: "CjOnlyOneTitlemedium", sans-ser
 
 
 /* Navbar 드롭다운 버튼 옆 삼각형 아이콘 삭제 */
-#nav .dropdown-toggle::after {
+nav .dropdown-toggle::after {
     display: none;
 }

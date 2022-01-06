@@ -2,6 +2,54 @@
 layout: default
 ---
 
+<div id="front-carousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#front-carousel" data-slide-to="0" class="active"></li>
+		<li data-target="#front-carousel" data-slide-to="1" class=""></li>
+		<li data-target="#front-carousel" data-slide-to="2" class=""></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="https://via.placeholder.com/2000x400.png" class="d-block w-100" alt="..."/>
+			<div class="container">
+				<div class="carousel-caption">
+					<h1>첫번째 슬라이드</h1>
+					<p>첫번째 슬라이드에 대한 Text 설명입니다. 첫번째 슬라이드에 대한 Text 설명입니다.</p>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="https://via.placeholder.com/2000x400.png" class="d-block w-100" alt="..."/>
+			<div class="container">
+				<div class="carousel-caption">
+					<h1>두번째 슬라이드</h1>
+					<p>두번째 슬라이드에 대한 Text 설명입니다. 두번째 슬라이드에 대한 Text 설명입니다.</p>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="https://via.placeholder.com/2000x400.png" class="d-block w-100" alt="..."/>
+			<div class="container">
+				<div class="carousel-caption">
+					<h1>세번째 슬라이드</h1>
+					<p>세번째 슬라이드에 대한 Text 설명입니다. 세번째 슬라이드에 대한 Text 설명입니다.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-target="#front-carousel" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-target="#front-carousel" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</button>
+</div>
+
+
+<div class="container">
+
 ## 프레시원
 
 식자재 유통 전문 기업 프레시원이 식당 운영에 필요한 최적의 Solution 을 제공해 드립니다.
@@ -19,3 +67,7 @@ layout: default
 ## 편리한 주문 시스스템
 
 온·오프라인을 통한 편리한 주문과 실시간 커뮤니케이션으로 고객이 원하는 서비스를 제공해 드립니다.
+
+
+</div>
+
