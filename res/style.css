@@ -30,3 +30,7 @@ nav .dropdown-toggle::after {
 hr {
 	margin-top: 4rem; margin-bottom: 4rem;
 }
+
+/* div 세로 가운데 정렬 */
+.outer {position: relative; width: 100%; height: 100%;}
+.inner {position: absolute; top: 50%; transform: translateY(-50%);}
