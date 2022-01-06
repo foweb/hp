@@ -1,6 +1,23 @@
+/* 폰트 설정 */
+@charset "utf-8";
+@font-face{
+    font-family: "CjOnlyOneTitleMedium";
+    font-style: normal;
+    src: url(../font/cjonlyone/CJONLYONENEWtitleMedium.woff) format('woff');
+
+}
+@font-face{
+    font-family: "CjOnlyOneBodyLight";
+    font-style: normal;
+    src: url(../font/cjonlyone/CJONLYONENEWbodyLight.woff) format('woff');
+
+}
+html, body, div, p, ul, li {font-family: "CjOnlyOneBodyLight", sans-serif;}
+b, strong, h1, h2, h3, h4, h5, h6 {font-family: "CjOnlyOneTitlemedium", sans-serif;}
 
 
-/* 드롭다운 버튼 옆 삼각형 아이콘 삭제 */
-.dropdown-toggle::after {
+
+/* Navbar 드롭다운 버튼 옆 삼각형 아이콘 삭제 */
+#nav .dropdown-toggle::after {
     display: none;
 }
