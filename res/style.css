@@ -1,0 +1,6 @@
+
+
+/* 드롭다운 버튼 옆 삼각형 아이콘 삭제 */
+.dropdown-toggle::after {
+    display: none;
+}
