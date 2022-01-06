@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+---
+layout: default
+---
 
-You can use the [editor on GitHub](https://github.com/foweb/newhp/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 프레시원
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+식자재 유통 전문 기업 프레시원이 식당 운영에 필요한 최적의 Solution 을 제공해 드립니다.
 
-### Markdown
+최고 수준의 인프라로 믿을 수 있는 상품을 제공해 드립니다.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 상품구매
 
-```markdown
-Syntax highlighted code block
+상품군별 전문 MD가 가공식품·농산·수산·축산·비식품에 이르는 30,000여 가지의 상품을 제안합니다.
 
-# Header 1
-## Header 2
-### Header 3
+## 물류 센터
 
-- Bulleted
-- List
+국내 최고 수준의 물류 센터와 시스템을 통해 주문 상품을 최적의 시간에 안전하게 배송합니다.
 
-1. Numbered
-2. List
+## 편리한 주문 시스스템
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/foweb/newhp/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+온·오프라인을 통한 편리한 주문과 실시간 커뮤니케이션으로 고객이 원하는 서비스를 제공해 드립니다.
