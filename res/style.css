@@ -37,3 +37,6 @@ hr {
 	.outer {position: relative; width: 100%; height: 100%;}
   	.inner {position: absolute; top: 50%; transform: translateY(-50%);}
 }
+
+/* mybox 세로 크기 고정 */
+.mybox {height: 300px;}
