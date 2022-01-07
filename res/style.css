@@ -38,5 +38,5 @@ hr {
   	.inner {position: absolute; top: 50%; transform: translateY(-50%);}
 }
 
-/* mybox 세로 크기 고정 */
-.mybox {height: 300px;}
+/* mybox 아래 div 박스 세로 크기 고정 */
+.mybox > div {height: 300px;}
