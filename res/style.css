@@ -18,8 +18,7 @@ p {word-break: keep-all;}
 
 /* fixed-top 세로 크기만큼 다음 엘리먼트 띄우기 */
 body {
-	min-height: 51.5rem;
-	padding-top: 2.5rem;
+	padding-top: 56px;
 }
 
 /* Navbar 드롭다운 버튼 옆 삼각형 아이콘 삭제 */
