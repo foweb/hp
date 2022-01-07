@@ -38,5 +38,6 @@ hr {
   	.inner {position: absolute; top: 50%; transform: translateY(-50%);}
 }
 
-/* mybox 아래 div 박스 세로 크기 고정 */
-.mybox > div {height: 300px;}
+/* mybox 스타일링, 아래 div 박스 세로 크기 고정 */
+.mybox > div {height: 240px;}
+.mybox .card {border: none !important; border-radius: none !important;}
