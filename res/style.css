@@ -19,6 +19,11 @@ b, strong, h1, h2, h3, h4, h5, h6 {font-family: "CjOnlyOneTitleMedium", sans-ser
 ul, li {list-style: none;}
 a, a:link, a:visited, a:active, a:hover {text-decoration: none; color: inherit;}
 
+
+/* navbar */
+.navbar {position: fixed; top: 0; left: 0; right: 0; height: 70px;}
+.nav-wrapper {display: flex;}
+
 /* responsible */
 .container {padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
 .mobile {display: block;}
@@ -28,14 +33,16 @@ a, a:link, a:visited, a:active, a:hover {text-decoration: none; color: inherit;}
     .container {width: 750px;}
     .mobile {display: none;}
     .desktop {display: block;}
+    .navbar:hover {height: auto;}
 }
 @media (min-width: 992px) {
     .container {width: 970px;}
-    .mobile {display: none;}
-    .desktop {display: block;}
+    /* .mobile {display: none;}
+    .desktop {display: block;} */
 }
 @media (min-width: 1200px) {
     .container {width: 1170px;}
-    .mobile {display: none;}
-    .desktop {display: block;}
+    /* .mobile {display: none;}
+    .desktop {display: block;} */
 }
+
