@@ -1,8 +1,6 @@
----
-menus: "회사소개|사업영역|역량·인프라|브랜드·상품|고객센터"
-subs: "프레시원|식자재 유통|상품 구매,물류 시스템,ERP 시스템|브랜드 소개|Contact Us"
-urls: "about|food-distribution|sourcing,scm,erp|brands|contact-us"
----
+{% assign menus = "회사소개|사업영역|역량·인프라|브랜드·상품|고객센터" | split: "|" %}
+{% assign subs = "프레시원|식자재 유통|상품 구매,물류 시스템,ERP 시스템|브랜드 소개|Contact Us" | split: "|" %}
+{% assign urls = "about|food-distribution|sourcing,scm,erp|brands|contact-us" | split: "|" %}
 
 <nav class="navbar">
     <div class="container">
@@ -12,9 +10,6 @@ urls: "about|food-distribution|sourcing,scm,erp|brands|contact-us"
                     <img src="https://via.placeholder.com/150x50" alt="freshone ci"/>
                 </div>
             </div>
-                {% assign subs = page.subs | split: "|" %}
-                {% assign urls = page.urls | split: "|" %}
-                {% assign menus = page.menus | split: "|" %}
                 {% assign menu_size = menus.size | minus: 1 %}
                 {% for i in (0..menu_size) %}
                     <div class="nav-item">
