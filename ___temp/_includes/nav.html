@@ -1,48 +1,7 @@
 ---
-menus: "회사소개|사업영역|역량·인프라|브랜드·상품|고객센터"
+menu: "회사소개|사업영역|역량·인프라|브랜드·상품|고객센터"
 subs: "프레시원|식자재 유통|상품 구매,물류 시스템,ERP 시스템|브랜드 소개|Contact Us"
-urls: "about|food-distribution|sourcing,scm,erp|brands|contact-us"
 ---
-
-<nav class="navbar">
-    <div class="container">
-        <div class="nav-wrapper">
-            <div class="nav-breand">
-                <div>
-                    <img src="https://via.placeholder.com/150x50" alt="freshone ci"/>
-                </div>
-            </div>
-                {% assign subs = page.subs | split: "|" %}
-                {% assign urls = page.urls | split: "|" %}
-                {% assign menus = page.menus | split: "|" %}
-                {% assign menu_size = menus.size | minus: 1 %}
-                {% for i in (0..menu_size) %}
-                    <div class="nav-item">
-                        <div class="nav-item-head">
-                            <div>{{ menus[i] }}</div>
-                                
-                        </div>
-                        <div class="nav-item-body">
-                            {% assign sub = subs[i] | split: "," %}
-                            {% assign url = urls[i] | split: "," %}
-                            {% assign sub_size = sub.size | minus: 1 %}
-                            {% for j in (0..sub_size) %}
-                                <div><a href="{{ url[j] }}">{{ sub[j] }}</a></div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                {% endfor %}
-            <div class="nav-button mobile">
-                <div>
-                    <button>
-                        X
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
-
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">

@@ -12,32 +12,30 @@
     src: url(./CJONLYONENEWbodyLight.woff) format('woff');
 
 }
-html, body, div, p, ul, li {font-family: "CjOnlyOneBodyLight", sans-serif;}
-b, strong, h1, h2, h3, h4, h5, h6 {font-family: "CjOnlyOneTitlemedium", sans-serif;}
-p {word-break: keep-all;}
 
-/* fixed-top 세로 크기만큼 다음 엘리먼트 띄우기 */
-body {
-	padding-top: 56px;
-}
+html, body {width: 100%; height: 100%; margin: 0; padding: 0; font-family: "CjOnlyOneBodyLight", sans-serif; word-break: keep-all; line-height: 1.4; font-size: 20px; color: #343a40;}
+html, body, div, p, ul, li, header, nav, main, footer, h1, h2, h3, h4, h5, h6 {display: block; box-sizing: border-box; background-color: transparent;}
+b, strong, h1, h2, h3, h4, h5, h6 {font-family: "CjOnlyOneTitleMedium", sans-serif;}
+ul, li {list-style: none;}
+a, a:link, a:visited, a:active, a:hover {text-decoration: none; color: inherit;}
 
-/* Navbar 드롭다운 버튼 옆 삼각형 아이콘 삭제 */
-nav .dropdown-toggle::after {
-    display: none;
-}
+/* responsible */
+.container {padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+.mobile {display: block;}
+.desktop {display: none;}
 
-/* hr 세로 크기 확대*/
-hr {
-	margin-top: 4rem; margin-bottom: 4rem;
-}
-
-/* div 세로 가운데 정렬 */
-.outer {margin-bottom: 15px;}
 @media (min-width: 768px) {
-	.outer {position: relative; width: 100%; height: 100%;}
-  	.inner {position: absolute; top: 50%; transform: translateY(-50%);}
+    .container {width: 750px;}
+    .mobile {display: none;}
+    .desktop {display: block;}
 }
-
-/* mybox 스타일링, 아래 div 박스 세로 크기 고정 */
-.mybox > div {height: 240px;}
-.mybox .card {border: none !important; border-radius: none !important;}
+@media (min-width: 992px) {
+    .container {width: 970px;}
+    .mobile {display: none;}
+    .desktop {display: block;}
+}
+@media (min-width: 1200px) {
+    .container {width: 1170px;}
+    .mobile {display: none;}
+    .desktop {display: block;}
+}
