@@ -25,7 +25,7 @@ a, a:link, a:visited, a:active, a:hover {text-decoration: none; color: inherit;}
 .nav-wrapper {display: flex; justify-content: space-between;}
 .nav-item {display: flex;
     flex-direction: column;}
-.nav-item-header {    flex-basis: 70px;
+.nav-item-head {    flex-basis: 70px;
     display: flex;
     align-items: center;}
 
